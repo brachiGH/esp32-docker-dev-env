@@ -4,7 +4,7 @@ services:
   esp-idf:
     build: .
     volumes:
-      - ./ESP32:/projects
+      - ./:/projects
     devices:
       - /dev/ttyUSB0
     stdin_open: true
